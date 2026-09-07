@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>portofolio nafil</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Container utama */
+        .container {
+            width: 720px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Header */
+        header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        /* Navbar */
+        nav {
+            height: 29px;
+            background-color: #ff8c00;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+
+            background-color: #990000;
+
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+
+            border-right: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #770000;
+        }
+
+        /* Area kosong navbar */
+        nav .nav-space {
+            flex: 1;
+        }
+
+        /* Banner */
+        .banner {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Layout 3 kolom */
+        .content {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Semua kolom */
+        .column {
+            font-size: 12px;
+            line-height: 1.05;
+            color: #111;
+        }
+
+        /* Judul kolom */
+        .column-title {
+            background-color: #a00000;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+
+            padding: 7px 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Profil Akun */
+        .left-box {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .left-box p {
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 0 8px;
+        }
+
+        /* Skill yang di kuasai */
+        .main-content {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 0 10px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 18px;
+            height: 25px;
+            background-color: #ff8c00;
+
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <h1>Siapa itu Napoléon Bonaparte ?</h1>
+        </header>
+
+        <!-- NAVBAR -->
+        <nav aria-label="Navigation Utama">
+            <a class="active" href="index.html">Home</a>
+            <a href="Awal.html">Awal</a>
+            <a href="pesan.html">Pesan</a>
+            <a href="kontak.html">Kontak</a>
+
+            <div class="nav-space"></div>
+        </nav>
+
+        <!-- GAMBAR BANNER -->
+        <img 
+            class="banner"
+            src="emperor.jpg"
+            alt="emperor"
+        >
+
+        <!-- CONTENT -->
+        <div class="content">
+
+            <!-- PROFIL AKUN -->
+            <div class="column left-box">
+
+                <div class="column-title">
+                    Profil Akun
+                </div>
+                <img src="chess.jpg" 
+                alt="chess"  
+                width="200" 
+                height="200" 
+                style="border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+
+            <p>
+                 Nama Lengkap: Napoléon Bonaparte (Napoléon I)
+            </p>
+
+            <p>
+                Tempat, Tanggal Lahir: Ajaccio, Korsika, 15 Agustus 1769
+            </p>
+            <p>
+                Gelar Peran Utama: Kaisar Prancis, Komandan Militer, Reformis Hukum
+            </p>
+            <p>
+                Ringkasan Singkat: Pemimpin militer dan politik genius yang naik daun saat Revolusi Prancis. Menguasai sebagian besar Eropa daratan di awal abad ke-19 dan mengubah tatanan hukum serta tata kelola negara modern melalui reformasi kelembagaan.  
+            </p>
+
+            </div>
+
+
+            <!--  KEMAMPUAN -->
+            <div class="column main-content">
+
+                <div class="column-title">
+                    KEMAMPUAN
+                </div>
+
+                <p>
+                    Taktik & Strategi Militer: Ahli dalam pergerakan pasukan cepat (blitzkrieg era klasik), konsentrasi kekuatan di titik lemah musuh, serta memanfaatkan artileri secara maksimal (misal: Pertempuran Austerlitz).
+                </p>
+                <p>
+                    Kepemimpinan & Manajerial: Mampu memotivasi ribuan prajurit (Grande Armée), mengelola sistem logistik perang skala besar, dan mendelegasikan tugas ke para marsekal.
+                </p>
+                <p>
+                    Reformasi Hukum & Administrasi: Menyusun Code Napoléon (Kitab Undang-Undang Hukum Perdata) yang menjadi fondasi hukum modern di banyak negara dunia, serta memodernisasi sistem perpajakan dan pendidikan.
+                </p>
+                <p>
+                    Geopolitik & Diplomasi: Mahir dalam negosiasi pembentukan aliansi, restrukturisasi peta politik Eropa, dan penerapan embargo ekonomi (Continental System).
+                </p>
+                <p>
+                    Komunikasi & Propaganda: Andal menggunakan narasi buletin perang, seni visual, dan pidato untuk membangun citra publik serta mempertahankan legitimasi kekuasaan.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            ©Copyright 2026
+        </footer>
+
+    </div>
+
+</body>
+</html>
